@@ -1,0 +1,16 @@
+[user]
+	name = Maciek Dubinski
+	email = maciek@dubinski.net
+
+
+[alias]
+        ci = commit
+	co = checkout
+	st = status
+        prettylog = log --pretty=oneline --abbrev-commit
+        lg =  "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
